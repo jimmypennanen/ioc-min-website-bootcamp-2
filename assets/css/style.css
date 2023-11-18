@@ -461,6 +461,9 @@ video {
 .min-h-80 {
   min-height: 80vh;
 }
+.min-h-90 {
+  min-height: 90vh;
+}
 .w-min {
   width: -moz-min-content;
   width: min-content;
@@ -495,6 +498,9 @@ video {
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.flex-row {
+  flex-direction: row;
 }
 .flex-col {
   flex-direction: column;
@@ -599,6 +605,15 @@ video {
 .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1578164252938-1da0cd4caa30\?w\=900\&auto\=format\&fit\=crop\&q\=60\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGJ1bm55fGVufDB8fDB8fHww\'\)\] {
   background-image: url('https://images.unsplash.com/photo-1578164252938-1da0cd4caa30?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGJ1bm55fGVufDB8fDB8fHww');
 }
+.bg-\[url\(\'images\/minimal-1\.jpeg\'\)\] {
+  background-image: url('images/minimal-1.jpeg');
+}
+.bg-\[url\(\'\/images\/minimal-1\.jpeg\'\)\] {
+  background-image: url('/images/minimal-1.jpeg');
+}
+.bg-\[url\(\'\/images\/minimal-1\.jpg\'\)\] {
+  background-image: url('/images/minimal-1.jpg');
+}
 .bg-cover {
   background-size: cover;
 }
@@ -674,6 +689,9 @@ video {
 .text-center {
   text-align: center;
 }
+.align-middle {
+  vertical-align: middle;
+}
 .font-sans {
   font-family: Lato, sans-serif;
 }
@@ -699,11 +717,22 @@ video {
   font-size: 3.75rem;
   line-height: 1;
 }
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
 .font-black {
   font-weight: 900;
 }
 .uppercase {
   text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
 }
 .italic {
   font-style: italic;
