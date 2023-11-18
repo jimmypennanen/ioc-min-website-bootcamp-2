@@ -21,7 +21,6 @@ html {
 body input, body textarea {
   display: block;
   width: 100%;
-  padding: 3px 1.5rem;
 }
 
 @media (min-width: 768px) {
